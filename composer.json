@@ -1,0 +1,19 @@
+{
+    "name": "lzc/demo",
+    "description": "this is demo",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lzc\\Demo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lzc",
+            "email": "lzc@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
