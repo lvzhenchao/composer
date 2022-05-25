@@ -3,11 +3,6 @@
     "description": "this is demo",
     "type": "project",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Lzc\\Demo\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "lzc",
@@ -21,5 +16,12 @@
             "type": "composer",
             "url": "https://packagist.phpcomposer.com"
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lzc\\Demo\\": "src/",
+            "App\\Home\\": "app/home/"
+        },
+        "files":["common/function.php"]
     }
 }

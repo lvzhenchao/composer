@@ -1,3 +1,6 @@
 
 *.xml
 /vendor/
+*.iml
+*.iml
+.idea/composer.iml
